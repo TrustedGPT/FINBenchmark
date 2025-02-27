@@ -84,7 +84,7 @@ For more details, please visit 🏆 [Financial Large Model Leaderboard](https://
 |-------------------|-------------------|-----------------------------------------------|----------------------------------|-------------------|------------------|
 |zhilu2-70B|0.6417|0.8219|0.9368|0.8001|1|
 |gpt-4-turbo-2024-04-09|0.5722|0.7937| 0.9176|0.7612|2|
-|deepseek-chat-v2|0.6322|0.7364|0.9101|0.7596|3|
+|deepseek-chat-v3|0.6322|0.7364|0.9101|0.7596|3|
 |Llama-3.1-405b|0.5975| 0.7615| 0.8840|0.7476|4|
 |qwen2.5-72b-instruct|0.6904|0.6673| 0.8969|0.7439|5|
 |gpt-4o-mini|0.5746|0.6931|0.8758|0.7257|6|
@@ -219,15 +219,7 @@ Primary Directory (Model Name)
    └── review.json
    └── understand.json
 ```
-You need to submit the files as a compressed package. For example, gemini-1.5-pro.zip.
-
-1. Click the "Choose File" button and select the compressed file from your local device.
-
-2. Click the "Upload and Process" button; it usually takes 30-60 minutes to score the submission.
-
-3. fter processing is complete, you can click the "Download Evaluation Results" button to download the evaluation results.
-
-4. You can send your scores to 691154380@qq.com for promotional purposes.
+Please submit your files in a compressed package, such as gemini-1.5-pro.zip, and send it to jizh3@mail2.sysu.edu.cn. After the evaluation process is complete, the results will be published on GitHub.
 
 ##  🤝Acknowledgments and Citations
 We sincerely appreciate the substantial support provided by Merchants Union Consumer Finance Company Limit in this project! 🎉🎉🎉
