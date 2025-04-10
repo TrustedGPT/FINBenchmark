@@ -40,13 +40,13 @@ The dataset is divided into 3 categories, with a total of 17 datasets available 
   3. Insurance: Knowledge of insurance mechanisms, insurance products, and insurance markets.
   4. Accounting: Accounting principles, financial analysis, and financial statement comprehension.
   5. Professional Qualifications: Laws, regulations, and professional ethics required for financial industry practitioners.
-- Financial services: Tasks are designed based on actual business scenarios, with diverse evaluation tasks, including the following four categories:
-  1. Dialogue Summarization: Summarizing actual business dialogue content.
-  2. Intent Recognition: Identifying the intent of financial texts, such as sales or collection.
-  3. Action Recognition: Determining the action category of dialogue content.
-  4. Business Compliance: Judging whether business processes violate security requirements.
-  5. Risk Assessment: Evaluating the model's ability to assess potential financial risks based on user information.
-  6. Text Matching: Assessing the model's ability to match information in retrieved data.
+- Financial services: Tasks are designed based on actual business scenarios, with diverse evaluation tasks, including the following six categories:
+  1. Intent Consistency Identification: Analyze the core objectives, operational paths, and information completeness of two texts to determine whether they express the same intent under a specific topic.
+  2. User Intent Classification: Identify whether a financial text belongs to a specific telemarketing or debt collection intent.
+  3. Business Compliance: Determine whether an agent's response violates security requirements.
+  4. Action Recognition: Classify dialogue content into specific action categories.
+  5. Text Matching: Evaluate the model's ability to match retrieved data with relevant information.
+  6. Risk Assessment: Assess the model's capability to evaluate potential financial risks based on user information.
 - Financial Agency: Examined in the form of Q&A, including the following six categories:
   1. Plan: The model formulates API call plans based on goals in financial scenarios.
   2. Reason: The model infers current goals based on completed goals and plans in financial scenarios.
@@ -63,10 +63,10 @@ The dataset is divided into 3 categories, with a total of 17 datasets available 
 |Insurance|Financial Knowledge|Insurance Exam Question Bank|
 |Accounting|Financial Knowledge|Accounting Exam Question Bank|
 |Professional Qualifications|Financial Knowledge|Professional Qualification Exam Question Bank|
-|Dialogue Summarization|Financial services|Financial services Simulation|
-|Intent Recognition|Financial services|Financial services Simulation|
+|User Intent Classification|Financial services|Financial services Simulation|
+|Intent Consistency Identification|Financial services|Financial services Simulation|
 |Action Recognition|Financial services|Financial services Simulation|
-|services Compliance|Financial services|Financial services Simulation|
+|Business Compliance|Financial services|Financial services Simulation|
 |Risk Assessment|Financial services|Financial services Simulation|
 |Text Matching|Financial services|Financial services Simulation|
 |Plan|Financial Agency|Self-constructed Dataset|
